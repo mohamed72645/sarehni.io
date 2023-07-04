@@ -41,7 +41,7 @@ var amOrPm = hours >= 12 ? 'PM' : 'AM';
 hours = hours % 12 || 12;
 
 
-  firebase.database().ref('messages/' + id + '/msg/').push({
+  firebase.database().ref('messages/'+ '/msg/' + id + '/msg/').push({
     d: now.getDate(),
     mo: now.getMonth() + 1,
     y: now.getFullYear(),
