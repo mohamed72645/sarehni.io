@@ -1,11 +1,11 @@
 
 // استخراج الـ id من الرابط
-//const urlParams = new URLSearchParams(window.location.search);
-//const id = urlParams.get('id');
+const urlParams = new URLSearchParams(window.location.search);
+const id = urlParams.get('id');
 //var id = "jAoCxBTgmjexhbXVaBPEJKyKsSG3";
-var currentPageUrl = window.location.href;
-var urlParts = currentPageUrl.split('/');
-var id = urlParts[urlParts.length - 1];
+//var currentPageUrl = window.location.href;
+//var urlParts = currentPageUrl.split('/');
+//var id = urlParts[urlParts.length - 1];
 // إعداد تكوين Firebase
 const firebaseConfig = {
   apiKey: "AIzaSyC4rkjDD-ZYPrvMxP9X3USPgJhpkFVCr-A",
