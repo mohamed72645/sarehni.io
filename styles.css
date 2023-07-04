@@ -1,0 +1,30 @@
+body {
+  background-color: white;
+  margin: 0;
+}
+
+#center-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#text-input {
+  margin-right: 10px;
+  width: calc(33.33vw - 20px); /* ثلث عرض الشاشة مع الحفاظ على هامش 10 بكسل على كلا الجانبين */
+  height: calc(33.33vh - 20px); /* ثلث طول الشاشة مع الحفاظ على هامش 10 بكسل على كلا الجانبين */
+  white-space: pre; /* يمكن استخدام أشكال السطر بالضغط على زر Enter */
+  direction: rtl; /* تحديد اتجاه النص إلى اليمين في اللغة العربية */
+}
+
+
+button {
+  background-color: #22bbb3;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 10px; /* تباعد الزر عن مربع النص */
+}
